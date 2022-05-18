@@ -1,12 +1,24 @@
 {
   "name": "bob_den",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gh-pages -d dist"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeniMc/light-up-your-life.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DeniMc/light-up-your-life/issues"
+  },
+  "homepage": "https://github.com/DeniMc/light-up-your-life#readme",
+  "description": ""
 }

@@ -9,14 +9,16 @@
     text-align: center;
     margin-top: 30px;}
     
-    p{ padding: 1rem;
+    p{ padding: 3rem;
     margin-top: 1rem;
-    font-size: 2rem;
+    font-size: 3rem;
     color: gold;}
+
+    
     
     div {
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
         background-color: red;
         position: relative;
     
@@ -41,24 +43,24 @@
     to {background-color: blue;}*/
     
     0% {background-color: red;
-    left: 0px;
-    top: 0px;}
+    left: 400px;
+    top: 100px;}
     
     25% {background-color: lime;
-    left: 500px;
-    top: 0px;}
+    left: 1500px;
+    top: 100px;}
     
     50% {background-color: dodgerblue;
-        left: 500px;
-        top: 500px;
+        left: 1500px;
+        top: 800px;
     border-radius: 50%;}
     
     75% {background-color: orange;
-        left: 0px;
-        top: 500px;}
+        left: 400px;
+        top: 800px;}
     
     100% {background-color: blue;
-        left: 0px;
-        top: 0px;
+        left: 400px;
+        top: 100px;
     border-radius: 0px;}
     }
