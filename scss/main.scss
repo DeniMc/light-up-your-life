@@ -1,3 +1,64 @@
-body {
-    background-color: pink;
-}
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+    
+    body { background-color: black;
+    margin-top: 5rem;}
+    
+    h1 { color: antiquewhite;
+    text-align: center;
+    margin-top: 30px;}
+    
+    p{ padding: 1rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    color: gold;}
+    
+    div {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        position: relative;
+    
+    
+       /* animation: square;
+        animation-duration: 4s;
+        animation-timing-function: linear;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-fill-mode: backwards;
+        animation-play-state: running; */
+    
+        animation: square 4s linear 2s infinite alternate backwards;
+    
+        /* all above animate instructions in one line of code */
+    
+    }
+    
+    @keyframes square {
+    /*from {background-color: red;}
+    to {background-color: blue;}*/
+    
+    0% {background-color: red;
+    left: 0px;
+    top: 0px;}
+    
+    25% {background-color: lime;
+    left: 500px;
+    top: 0px;}
+    
+    50% {background-color: dodgerblue;
+        left: 500px;
+        top: 500px;
+    border-radius: 50%;}
+    
+    75% {background-color: orange;
+        left: 0px;
+        top: 500px;}
+    
+    100% {background-color: blue;
+        left: 0px;
+        top: 0px;
+    border-radius: 0px;}
+    }
